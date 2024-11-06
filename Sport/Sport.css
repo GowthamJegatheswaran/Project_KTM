@@ -1,0 +1,234 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+  
+    margin-left:950px;
+    margin-bottom: 100px;
+    display:inline-flex;
+    justify-content:end;
+    
+  }
+
+  .nav-link:hover {
+    color: #ff5e00;
+  }
+  
+  #earth{
+    margin-right: 40px;
+    font-size: 20px;
+    color: #ff5e00;
+    cursor: pointer;
+  
+  }
+  #location{
+    margin-right: 40px;
+    font-size: 20px;
+    color: #ff5e00;
+    cursor: pointer;
+  }
+
+.intro{
+    background-color: #262525;
+    width: 100%;
+    position: absolute;
+    
+}
+.quote{
+    color: aliceblue;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+    margin-top: 60px;
+    text-shadow: whitesmoke;
+    display: flex;
+    position: relative;
+    
+}
+
+.quote2{
+  color: #ff5e00;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.p1{
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.p2{
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 440px;
+    margin-right: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Nakedbikes{
+    display: flex;
+    position: relative;
+    color: aliceblue;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.duke1390text{
+    margin-top: 120px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.duke1390image{
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.p3{
+  font-size: 20px;
+  font-weight:400;
+}
+
+.bannertext {
+    position: absolute;
+    top: 55%;
+    left: 40%; 
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff5e00;
+    font-weight: bold;
+  }
+
+  .explore1{
+    background-color:#2625251b;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid orangered;
+    margin-right: 450px;
+    font-size: 20px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.explore1:hover{
+    background-color:#ff5e00;
+    
+}
+
+.visit{
+  background-color: #ff5e00;
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.visit:hover{
+  color:#ff5e00;
+  background-color: #262525;
+  
+}
+
+.models{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+
+.Bikevarients{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom:2px solid gray  ;
+    padding-bottom: 50px;
+}
+.testdeive{
+  display: flex;
+  position: absolute;
+  color: aliceblue;
+}
+.finalpara{
+    color: #c2c6c6;
+    font-weight: bolder;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: 2px solid gray;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
+.Others{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 40px;
+    color: whitesmoke;
+    justify-content: space-between;
+    border-bottom:1px solid gray ;
+  }
+  
+  h4{
+    margin-left: 60px;
+    font-weight: bolder;
+  }
+  
+  ol{
+  margin-top: 20px;
+  }
+  
+  ul{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+  }
+  
+  ul:hover{
+    color: #ff5e00;
+    cursor: default;
+  }
+  
+  footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .navbar{
+    display: flex;
+    position:absolute;
+  }

@@ -1,0 +1,244 @@
+body{
+    
+    background-color: #1f1f1f;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .nav-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #0a0a0a;
+  }
+  
+  .nav-link:hover {
+    color: #ff5e00;
+  }
+  
+  #earth, #location {
+    margin-right: 40px;
+    font-size: 25px;
+    color: #ff5e00;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators li {
+    background-color: #ffffff; /* Gray color for inactive indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ff5e00; /* Orange color for the active indicator */
+  }
+  
+  .container {
+    position: relative;
+    width: fit-content;
+    margin-left: 10px;
+  }
+  
+  .bannertext {
+    position: absolute;
+    top: 3%;
+    left: 2%; 
+    /* transform: translate(-50%, -50%); */
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9fcff;
+    font-weight: bold;
+    font-style: italic;
+   
+  }
+
+  .explore1{
+    background-color: #ff6200;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+    border: 2px solid orangered;
+    margin-right: 450px;
+    /* margin-left:200px ; */
+    font-size: 20px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.explore1:hover{
+    background-color: #2625251b;
+    
+}
+
+.Overlay{
+    position:relative;
+    margin:50px 920px 20px 60px;
+    border-bottom: 2px solid #ff6200;
+    color: #f9fcff;
+    display: flex;
+    padding-bottom: 40px;
+
+}
+
+.overlaytext{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.duketext{
+  position:relative;
+  /* margin:10px 20px 20px 60px; */
+  margin-left: 50px;
+  margin-right: 40px;
+  color: #f9fcff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Overlay1{
+  position:relative;
+  padding-right: 100px;
+  color: #f9fcff;
+  display: flex;
+  padding-bottom: 40px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.carousel-item{
+  margin-left: 50px;
+  padding-left: 100px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 35px; 
+  color: #ff6200; 
+  font-weight: bold;
+}
+
+.carousel-control-next i:hover{
+  color: #f9fcff;
+}
+.carousel-control-prev i:hover{
+  color: #f9fcff;
+
+}
+
+.first{
+  font-size: 50px;
+  color: #f9fcff;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top:60px ;
+  margin-left: 60px;
+  margin-right: 550px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ff6200;
+}
+
+.spareimage{
+  display: flex;
+  margin: 50px;
+  color: #f9fcff; 
+}
+
+.sparetext{
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  font-size:18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.finalpara{
+  color: #c2c6c6;
+  font-weight: bolder;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-top: 2px solid gray;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 40px;
+}
+
+.button {
+  /* margin-left: 20px; */
+  padding: 15px 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #ff6200; 
+  font-weight: bold; 
+  color: white;
+  border: 2px solid #ff5e00;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: #ff5e00;
+  background-color: #2625251b;
+}
+
+.Signup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.Others {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: black;
+  padding: 40px;
+  color: whitesmoke;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
+}
+
+h4 {
+  margin-left: 60px;
+  font-weight: bolder;
+}
+
+ol {
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+ul:hover {
+  color: #ff5e00;
+  cursor: default;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px 25px;
+  justify-content: center;
+}
+

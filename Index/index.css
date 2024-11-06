@@ -1,0 +1,242 @@
+
+
+#panel1 {
+  width: 100%;
+  height: 480%;
+  position: absolute;
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  /* justify-content: center; */
+  border-radius: 10px;
+  background-color: black;
+  padding: 20px;
+  font-size: 85px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  /* height: 1500px; */
+  color: #ff5500; 
+  /* opacity: 0.9; */
+  z-index: 1;
+}
+
+.era{
+  font-size: 55px;
+}
+
+#panel1 p {
+  margin-left: 150px; 
+  margin-right: 150px;
+  margin-top: 200px;
+}
+
+#panel1 button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 520px;
+  margin-right: 520px;
+  background-color: #ff5500;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+#panel1 button:hover {
+  background-color: #131313e1;
+  color: #ff5500;
+  border-color: #ff5500;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.nav-link:hover {
+  color: #ff5e00;
+}
+
+#earth, #location {
+  margin-right: 40px;
+  font-size: 25px;
+  color: #ff5e00;
+  cursor: pointer;
+}
+
+.carousel-indicators li {
+  background-color: #ffffff; /* Gray color for inactive indicators */
+}
+
+.carousel-indicators .active {
+  background-color: #ff5e00; /* Orange color for the active indicator */
+}
+
+.bannertext1{
+  position: absolute;
+  top: 30%;
+  left: 17%; 
+  /* transform: translate(-50%, -50%); */
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f9fcff;
+  font-weight: bold;
+  /* font-style: italic; */
+ margin-top: 50px;
+}
+
+.explore1{
+  background-color: #ff6200;
+  /* border-radius: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  border: 2px solid orangered;
+  margin-right: 310px;
+  margin-left:310px ;
+  font-size: 20px;
+  font-weight: bold; 
+  cursor: pointer;
+}
+.explore1:hover{
+  background-color: #2625251b; 
+}
+
+.container {
+  position: relative;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.bannertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f9fcff;
+  font-weight: bold;
+}
+
+.banner:hover {
+  cursor: pointer;
+}
+
+.container1 {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container1 div {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: white; 
+  font-weight: bold; 
+  color: #ff5e00;
+  border: 2px solid #ff5e00;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: #f9fcff;
+  background-color: #ff5e00;
+}
+
+.Signup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  align-items: center;
+}
+
+.Others {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: black;
+  padding: 40px;
+  color: whitesmoke;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
+}
+
+h4 {
+  margin-left: 60px;
+  font-weight: bolder;
+}
+
+ol {
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+ul:hover {
+  color: #ff5e00;
+  cursor: default;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px 25px;
+  justify-content: center;
+}
+
+.carousel-indicators li {
+  background-color: #f00; /* Red color for inactive indicators */
+}

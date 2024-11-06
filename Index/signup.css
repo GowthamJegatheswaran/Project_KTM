@@ -1,0 +1,64 @@
+
+body {
+    background-image: url(KTM-300\ EXC-Range_.jpeg) ;
+
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #424040ad;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form{
+    color: #ff6600;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+.Others {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 40px;
+    color: whitesmoke;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+  }
+  
+  h4 {
+    margin-left: 60px;
+    font-weight: bolder;
+  }
+  
+  ol {
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+  
+  ul {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+  }
+  
+  ul:hover {
+    color: #ff5e00;
+    cursor: default;
+  }
+  
+  footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 25px;
+    justify-content: center;
+    padding-left: 420px;
+  }

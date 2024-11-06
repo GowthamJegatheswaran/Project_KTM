@@ -1,0 +1,196 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    display: flex;
+    position:absolute;
+  }
+
+.nav-link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #0a0a0a;  
+}  
+.nav-link:hover{
+    color: #ff5e00;
+    }
+
+    .logo{
+  
+      /* margin: 10px; */
+      margin-left:950px;
+      margin-bottom: 100px;
+      display:inline-flex;
+      justify-content:end;
+      
+    }
+    #earth{
+        margin-right: 40px;
+        font-size: 20px;
+        color: #ff5e00;
+        cursor: pointer;
+      
+      }
+      #location{
+        margin-right: 40px;
+        font-size: 20px;
+        color: #ff5e00;
+        cursor: pointer;
+      }
+      
+      .container{
+        position: relative;
+        width: fit-content;
+        margin-left: 10px;
+      }  
+ 
+.bannerimg{
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 45px;
+}
+.p1{
+  color: black;
+  text-align: left;
+  margin-top: 4%;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.Nakedbikes{
+  display: flex;
+  position: relative;
+  color: black;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.SUPERADVENTUR1290text{
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.SUPERADVENTUR1290image{
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+.models{
+  font-size: 50px;
+  color: black;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
+
+.Bikevarients{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 450px;
+}
+
+.explore1{
+  background-color: #ff6200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+  border: 2px solid orangered;
+  margin-right: 20px;
+  margin-left: 23px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px; 
+}
+
+.explore1:hover{
+  background-color:white;
+  transition-duration: 0.2s;
+}
+
+.travelbikes:hover{
+  box-shadow: 6px 6px 10px 10px rgba(89, 88, 88, 0.815); 
+} 
+
+.finalpara{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-top: 2px solid gray;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  line-height: 1.8;
+}
+
+.Others{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 40px;
+  color: whitesmoke;
+  justify-content: space-between;
+  border-bottom:1px solid gray ;
+  margin-top: 100px;
+}
+
+h4{
+  margin-left: 60px;
+  font-weight: bolder;
+}
+
+ol{
+margin-top: 20px;
+}
+
+ul{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+ul:hover{
+  color: #ff5e00;
+  cursor: default;
+}
+
+footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
